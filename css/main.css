@@ -1,0 +1,559 @@
+/* Шапка */
+
+.container {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    max-width: 100%;
+}
+
+.nav_menu {
+    font-family: Montserrat;
+}
+
+.logo {
+    width: 19%;
+    position: absolute;
+    margin: 1% 0;
+    padding: 0;
+}
+
+.menu {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.item {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.link {
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 7.5px 32px;
+    font-family: Montserrat;
+}
+
+.all {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.bg {
+    position: relative;
+    max-width: 100%;
+    margin: 4% auto;
+    padding: auto;
+}
+
+.zag {
+    position: relative;
+    margin-top: 5%;
+    margin-left: 11%;
+    margin-bottom: 5%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 30px;
+
+    color: #000000;
+}
+
+/* Услуги */
+
+.item_kosm {
+    overflow: hidden;
+    margin: 5% auto;
+    margin-left: 15%;
+}
+
+.item1 {
+    background-color: #513C34;    ;
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 3%;
+    height: 100%;
+    width: 25%;
+    text-decoration: none;
+    border-bottom: 3px solid #D0D0D1;
+    transition: border .25s ease-out;
+    color: #000000;
+}
+
+.bg_it {
+    position: relative;
+}
+
+.bg_it img {
+    width: 100%;
+    height: 50%;
+}
+
+.content {
+    padding: 5%;
+}
+
+.name {
+    position: absolute;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+}
+
+.summa {
+    font-family: Montserrat;
+    color: #FFFFFF;    
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.28;
+    position: relative;
+    padding-left: 1%;
+    padding-top: 15%;
+}
+
+.item1:hover .name {
+    text-decoration: underline;
+}
+
+.more {
+    position: relative;
+    margin: 5% auto;
+    max-width: 20%;
+}
+
+.more_text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    text-decoration: none;
+    padding: 7%;
+    font-weight: 600;
+    font-size: 15px;
+
+    color: #000000;
+
+    background: #FFFFFF;
+    border: 1px solid #513C34;
+}
+
+/* Косметика */
+
+.bgkos {
+    position: relative;
+    background-color: #906453;
+    width: 100%;
+    margin: 3% auto;
+}
+
+.info {
+    display: inline-block;
+    margin: 2% 0 1% 15%;
+}
+
+.pic {
+    margin-right: 50px;
+    width: 25%;
+}
+
+/* Сертификат */
+
+.pic4 {
+    margin-right: 60px;
+    width: 40%;
+}
+
+/* О клинике */
+
+.klinika {
+    position: relative;
+}
+
+.block {
+    max-width: 100%;
+}
+
+.pic2 {
+    margin-right: 10%;
+    max-width: 30%;
+    height: 491px;
+    float: right;
+    padding: 0 0 0 20px;
+}
+
+.text {
+    margin-top: 3%;
+    margin-left: 11%;
+    max-width: 100%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 149.4%;
+
+    color: #000000;
+}
+
+.pic3 {
+    max-width: 40%;
+    margin-left: 11%;
+    margin-top: 2%;
+}
+
+/* Подвал */
+
+.footer {
+    position: relative;
+    width: 100%;
+    height: 270px;
+    margin-top: 5%;
+    background: #513C34;
+}
+
+.text2 {
+    position: absolute;
+    margin: 5% 13%;
+    max-width: 100%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1330px) {
+    .link {
+        font-size: 17px;
+        padding: 1px 20px;
+    }
+
+    .zag {
+        font-size: 19px;
+    }
+
+    .name {
+        font-size: 12.7px;
+    }
+    
+    .summa {    
+        font-size: 12px;
+    }
+
+    .more {
+        max-width: 25%;
+    }
+    
+    .more_text {
+        font-size: 12px;
+    }
+
+    .pic2 {
+        height: 391px;
+    }
+
+    .text {
+        font-size: 14px;
+    }
+
+    .pic3 {
+        max-width: 38%;
+        margin-top: 1%;
+    }
+
+    .text2 {
+        position: absolute;
+        margin: 5% 13%;
+        max-width: 100%;
+        font-size: 15px;
+    }
+  }
+
+  @media screen and (max-width: 974px) {
+    .link {
+        font-size: 15px;
+        padding: 1px 10px;
+    }
+
+    .name {
+        font-size: 9px;
+    }
+    
+    .summa {    
+        font-size: 11px;
+    }
+  }
+
+  @media screen and (max-width: 760px) {
+    .link {
+        font-size: 13px;
+        padding: 1px 15px;
+    }
+
+    .zag {
+        font-size: 17px;
+    }
+
+    .name {
+        font-size: 9px;
+    }
+    
+    .summa {    
+        font-size: 11px;
+    }
+
+    .pic {
+        margin-right: 30px;
+    }
+
+    .pic2 {
+        height: 391px;
+    }
+
+    .pic4 {
+        margin-right: 40px;
+        width: 40%;
+    }
+  }
+
+  @media screen and (max-width: 688px) {
+    .more {
+        max-width: 25%;
+    }
+
+    .link {
+        margin-top: 2%;
+        font-size: 12px;
+        padding: 1px 15px;
+    }
+
+    .name {
+        font-size: 9px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    
+    .more_text {
+        padding: 7%;
+        font-size: 11px;
+    }
+
+    .text {
+        font-size: 12px;
+    }
+
+    .text2 {
+        position: absolute;
+        margin: 6% 13%;
+        max-width: 100%;
+        font-size: 12px;
+    }
+  }
+
+  @media screen and (max-width: 618px) {
+    .link {
+        margin-top: 1%;
+        font-size: 11px;
+        padding: 1px 10px;
+    }
+
+    .zag {
+        font-size: 16px;
+    }
+
+    .name {
+        font-size: 7px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .summa {
+        font-size: 7px;
+    }
+    
+    .more {
+        max-width: 25%;
+    }
+    
+    .more_text {
+        padding: 6%;
+        font-size: 9px;
+    }
+
+    .text {
+        font-size: 9px;
+    }
+
+    .text2 {
+        position: absolute;
+        margin: 6% 13%;
+        max-width: 100%;
+        font-size: 11px;
+    }
+
+    .pic2 {
+        height: 241px;
+    }
+  }
+
+  @media screen and (max-width: 525px) {
+    .link {
+        font-size: 9px;
+        padding: 1px 10px;
+    }
+
+    .name {
+        font-size: 6px;
+    }
+    
+    .summa {    
+        font-size: 6px;
+        padding-top: 25%;
+    }
+
+    .zag {
+        font-size: 11px;
+    }
+
+    .pic {
+        margin-right: 15px;
+    }
+
+    .pic4 {
+        margin-right: 25px;
+        width: 40%;
+    }
+
+    .more {
+        max-width: 30%;
+    }
+    
+    .more_text {
+        padding: 5%;
+        font-size: 8px;
+    }
+
+    .text {
+        font-size: 7px;
+    }
+
+    .text2 {
+        position: absolute;
+        margin: 6% 13%;
+        max-width: 100%;
+        font-size: 10px;
+        line-height: 18px;
+    }
+
+    .footer {
+        height: 180px;
+    }
+  }
+
+  @media screen and (max-width: 382px) {
+    .link {
+        font-size: 7px;
+        padding: 1px 10px;
+    }
+
+    .name {
+        font-size: 4px;
+    }
+    
+    .summa {    
+        font-size: 5px;
+        padding-top: 25%;
+    }
+
+    .zag {
+        font-size: 9px;
+    }
+
+    .pic {
+        margin-right: 15px;
+    }
+
+    .pic4 {
+        margin-right: 25px;
+        width: 40%;
+    }
+
+    .more {
+        max-width: 30%;
+    }
+    
+    .more_text {
+        padding: 4%;
+        font-size: 7px;
+    }
+
+    .text {
+        font-size: 6px;
+    }
+
+    .pic2 {
+        height: 141px;
+    }
+
+    .text2 {
+        position: absolute;
+        margin: 6% 13%;
+        max-width: 100%;
+        font-size: 8px;
+        line-height: 18px;
+    }
+
+    .footer {
+        height: 160px;
+    }
+  }
+
+  @media screen and (max-width: 332px) {
+    .link {
+        font-size: 5px;
+        padding: 1px 10px;
+    }
+
+    .more {
+        max-width: 35%;
+    }
+    
+    .more_text {
+        padding: 4%;
+        font-size: 7px;
+    }
+
+    .pic4 {
+        margin-right: 20px;
+        width: 40%;
+    }
+
+    .text2 {
+        position: absolute;
+        margin: 6% 13%;
+        max-width: 100%;
+        font-size: 7px;
+        line-height: 15px;
+    }
+
+    .footer {
+        height: 130px;
+    }
+  }
